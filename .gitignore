@@ -1,0 +1,30 @@
+# Local R files
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
+*.Rproj
+
+# Demo output, generated on each run
+outputs/
+
+# Avoid accidentally committing research data, GIS files, or models
+*.parquet
+*.feather
+*.gpkg
+*.gdb
+*.tif
+*.tiff
+*.nc
+*.rds
+*.RDS
+*.rda
+*.csv
+*.gpx
+*.zip
+*.7z
+*.heic
+
+# Operating system
+.DS_Store
+Thumbs.db
