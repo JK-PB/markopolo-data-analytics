@@ -1,7 +1,5 @@
 # MARKOPOLO | Geospatial data science and model validation
 
-**Selected project work · R · environmental data engineering · random forests · spatial and temporal cross-validation**
-
 > **Question:** How reliably can an environmental prediction model trained on measurements from particular locations and dates generalise to unseen places and future periods?
 
 ## Project at a glance
@@ -10,15 +8,13 @@ MARKOPOLO investigated the spatial and temporal variation of ultrafine particles
 
 The broader project included daily prediction on a **25 m grid** and scalable processing of large geospatial datasets. This repository is **a deliberately small portfolio case study**, not a reproduction of the full research infrastructure.
 
-### My selected contributions
+### My work included
 
 - **Data integration:** R workflows combining mobile and stationary observations with daily weather, temporal features and spatial predictors.
 - **Predictive modelling:** Random-forest models with log-transformed UFP, feature filtering, observation-support weighting and back-transformation.
 - **Model evaluation:** Random observation holdout, spatial-cluster cross-validation, temporal holdout and held-out monitoring-site experiments.
 - **Diagnostics:** Investigation of prediction bias, residual spatial dependence, weaknesses in geographical transfer and apparently misleading validation results.
 - **Scalable processing:** Parquet-based, keyed predictor tables and chunked daily inference to limit memory requirements.
-
-These are selected contributions to a **team project**, not a claim of sole authorship.
 
 ## The analytical workflow
 
@@ -34,7 +30,7 @@ flowchart LR
     G --> H
 ```
 
-### Why validation design matters
+### Validation Design
 
 A model can predict random held-out rows reasonably well and still fail when applied to a genuinely new area. Repeated observations from the same locations, geographical dependence and changes over time can make naïve validation optimistic. In the research work, geographically independent validation revealed substantially weaker generalisation than random splits. Investigating that discrepancy was an important part of the analysis.
 
