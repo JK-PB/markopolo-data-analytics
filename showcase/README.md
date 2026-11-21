@@ -1,4 +1,4 @@
-# Research workflow showcase | Adapted original R scripts
+# Adapted original R scripts
 
 This folder provides **two substantive code samples** adapted from the actual MARKOPOLO research workflow. Unlike the independently written [synthetic demonstration](../run_demo.R), the scripts here show the scale and structure of project-specific GIS processing and model validation.
 
@@ -15,13 +15,11 @@ This folder provides **two substantive code samples** adapted from the actual MA
 - Disabled the optional research-area buffer filter by default because the corresponding research geometry is not supplied.
 - Added public-facing headers and clarified the scripts' scope.
 
-**The code retains research-specific data schemas and workflow assumptions, and has not been re-run after these adaptations.** The neutral path names are documentation placeholders, not a downloadable data package. Some sections rely on preprocessed project-specific rasters and tables, which are intentionally excluded.
+The neutral path names are documentation placeholders, not a downloadable data package. Some sections rely on preprocessed project-specific rasters and tables, which are intentionally excluded.
 
 ## What is *not* here?
 
 No original mobile observations, station measurements, location-level outputs, GIS rasters, internal trained models, datasets from research partners, or numeric research results are uploaded. This is an example of **code structure and methodological reasoning**, not a fully reproducible research release.
-
-The source research code existed in a larger collaborative environment. These public adaptations highlight selected work and do not imply sole authorship of the full project or permission to redistribute third-party datasets.
 
 ## Where to start
 
