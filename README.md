@@ -69,6 +69,15 @@ The script creates fictional grid-day observations, trains and validates small r
 
 **All input observations, locations and demonstration results are synthetic.** They are not real MARKOPOLO results, and the demo is not the original production code. No institutional dataset, GIS raster, access token, model artifact or private filesystem path is required. The portfolio author has run the demo locally; output values may vary with R/package versions.
 
+## Selected research scripts (review-only)
+
+For reviewers who want to see examples of the **actual implementation complexity** beyond the synthetic demo, two adapted research scripts are included separately:
+
+- **[Master dataset and GIS pipeline](showcase/master_dataset_pipeline.R)** — approximately 3,100 lines covering reference-grid preparation, aggregation of monitoring measurements, daily weather processing, spatial raster predictors, and optional road-segment summaries.
+- **[Random forest modelling and cross-validation](showcase/random_forest_validation.R)** — approximately 2,600 lines covering model preparation, observation-support weights, feature selection, OOB/random/spatial/temporal validation, bias diagnostics, and back-transformation.
+
+These are **sanitized adaptations of project code**, not standalone scripts and not required by `run_demo.R`. Institutional drive paths have been replaced with environment-variable-based placeholders. The input datasets, source schemas, and trained research models are **not distributed**. See the [showcase reading guide](showcase/README.md) for limitations and provenance.
+
 ## Repository guide
 
 | Start here | Purpose |
@@ -83,6 +92,6 @@ The script creates fictional grid-day observations, trains and validates small r
 
 ## Scope and responsible sharing
 
-This portfolio is an **independently written illustration** of selected methods from collaborative research. It contains no original measurement data, monitoring-site observations, pretrained research models, unpublished quantitative findings or production scripts. It should not be interpreted as an official project release or institutional endorsement.
+The **runnable demonstration** is an independently written synthetic illustration of selected methods from collaborative research. The `showcase/` directory also contains two sanitized, non-runnable-without-institutional-inputs adaptations of real research scripts. The repository contains no original measurement data, monitoring-site observations, pretrained research models or unpublished quantitative results. It should not be interpreted as an official project release or institutional endorsement.
 
-The original workflow used more predictors, data sources, model settings, validation strategies and spatial-processing steps than the example here. Its complete results cannot be inferred from synthetic output. No third-party code license is granted for this sample at present.
+The original workflow used more predictors, data sources, model settings, validation strategies and spatial-processing steps than the example here. Its complete results cannot be inferred from synthetic output. No public reuse license has been assigned to the adapted research scripts; please contact the author before redistributing them.

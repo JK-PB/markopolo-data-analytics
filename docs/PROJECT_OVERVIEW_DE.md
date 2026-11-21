@@ -12,6 +12,6 @@ Meine Arbeit umfasste die datenbasierte Aufbereitung und Verknüpfung verschiede
 
 ## Zum Codebeispiel
 
-Dieses Repository enthält ein kompaktes, ausführbares **R-Demonstrationsprojekt mit vollständig synthetischen Daten**. Es illustriert zentrale Methoden, insbesondere die Modellierung logarithmisch transformierter Zielgrössen, verschiedene Validierungsansätze und die Interpretation von Gütemassen. Es enthält weder vertrauliche Forschungsdaten noch den vollständigen Originalcode und stellt keine offiziellen Projektergebnisse dar.
+Dieses Repository enthält ein kompaktes, ausführbares **R-Demonstrationsprojekt mit vollständig synthetischen Daten**. Es illustriert zentrale Methoden, insbesondere die Modellierung logarithmisch transformierter Zielgrössen, verschiedene Validierungsansätze und die Interpretation von Gütemassen. Das ausführbare Beispiel verwendet ausschliesslich synthetische Daten. Ergänzend enthält `showcase/` zwei bereinigte, dokumentierte Forschungs-Skripte als Codebeispiele. Sie benötigen gesonderte, autorisierte Eingabedaten, gehören nicht zum Demo-Lauf und stellen keine offiziellen Projektergebnisse dar.
 
 MARKOPOLO war ein gemeinschaftliches Forschungsprojekt. Die Darstellung beschränkt sich auf ausgewählte eigene Beiträge und ist keine institutionelle Veröffentlichung.
